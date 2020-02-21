@@ -7,7 +7,7 @@
     <title>Shadab | Personal Website</title>
 
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
 
     <!-- css -->
     <link rel="stylesheet" href="css/style.css">
@@ -18,23 +18,128 @@
 
     <div class="container">
 
+        <!-- Navbar -->
         <nav>
-            
-            <ul>
+            <ul class="navbar">
                 <span class="brand">
                     <li><a href="#">Shadab's Fortfolio</a></li>
                 </span>
                 
                 <span class="nav-items">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Me</a></li>
+                    <li><a href="#top-section">Home</a></li>
+                    <li><a href="#biography-section">Biography</a></li>
+                    <li><a href="#works-section">Latest Works</a></li>
+                    <li><a href="#review-section">Client Reviews</a></li>
+                </span>
+                
+            </ul>
+
+            <button class="mobile-menu-btn">menu</button>
+            <!-- mobile menu -->
+            <ul class="mobile-nav">
+                
+                
+                <span class="mobile-nav-items">
+                    <li><a href="#top-section">Home</a></li>
+                    <li><a href="#biography-section">Biography</a></li>
+                    <li><a href="#works-section">Latest Works</a></li>
+                    <li><a href="#review-section">Client Reviews</a></li>
                 </span>
                 
             </ul>
         </nav>
+
+
+        <!-- Top section -->
+        <section id="top-section" class="top-section">
+            <div class="block">
+                <h1>Hello I'm</h1>
+                <h1 class="text-highlight author-name">Shadab Anwar</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit iusto delectus quia. Officiis autem debitis at aut? Perspiciatis sequi error dolore perferendis ipsam, ut alias pariatur voluptatem doloribus, praesentium quae!</p>
+                <a href="#" class="btn-default">HIRE ME</a>
+            </div>
+
+            <div class="block">
+                <img src="images/peter.png" alt="Shadab's Image">
+            </div>
+            
+        </section>
+        
+        <!-- Biography section -->
+        <section id="biography-section" class="biography-section">
+            <div class="block1">
+                <h1>Biography</h1>
+                
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit iusto delectus quia. Officiis autem debitis at aut? Perspiciatis sequi error dolore perferendis ipsam, ut alias pariatur voluptatem doloribus, praesentium quae!</p>
+                <a href="#" class="btn-default">Download CV</a>
+            </div>
+
+            <div class="block2">
+                <img src="images/peter_dream.png" alt="Shadab's Image">
+            </div>
+            
+        </section>
+
+        <!-- Latest work section -->
+        <section id="works-section" class="works-section">
+
+            <h1>My Latest Works</h1>
+
+            <div class="latest-works">
+                <div class="item block1">
+                    <img src="images/latest-work/work-1.png" alt="Shadab's Image">
+                </div>
+    
+                <div class="item block2">
+                    <img src="images/latest-work/work-2.jpg" alt="Shadab's Image">
+                </div>
+    
+                <div class="item block3">
+                    <img src="images/latest-work/work-3.jpg" alt="Shadab's Image">
+                </div>
+            </div>
+            
+            
+        </section>
+        
+
+        <!-- Client review section -->
+        <section id="review-section" class="review-section">
+            
+            <h1>What Clients Say</h1>
+                
+            <div class="single-review">
+                <div class="block1">
+                    <img src="images/jhankar2.png" alt="" class="client-img-thumbnail">
+                    <h3>Jhankar Mahbub</h3>
+                    <p class="designation-highlight">Founter & CEO</p>
+                </div>
+
+                <div class="block2">
+                    <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt eligendi hic voluptatem, soluta deleniti animi, quos accusantium, sit nam perspiciatis alias quasi ducimus necessitatibus maiores fuga obcaecati voluptates eos voluptatibus!</q>
+                </div>
+
+                <div class="block3">
+                    <div class="message-me">
+                        <h4>Leave me a message in my email</h4>
+                        <h2>shadab_anwar@programming-hero.com</h2>
+                    </div>
+                </div>
+            </div>
+
+            
+        </section>
+
+        
+            <footer>
+                Copyright &copy; 2020 | Shadab Anwar | All rights reserved.
+            </footer>
+       
         
     </div>
     
 </body>
+
+
 
 </html>
